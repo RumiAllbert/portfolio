@@ -12,7 +12,8 @@ export const openSource = {
 	githubUserName: "RumiAllbert",
 };
 
-export const contact = {};
+export const contact = {
+};
 
 export const socialLinks = {
 	github: "https://github.com/RumiAllbert",
@@ -116,7 +117,7 @@ export const experience = [
 		role: "Research Assistant",
 		company: "University of Delaware",
 		companylogo: "/img/icons/common/University_of_Delaware.svg",
-		date: "December 2020 – Present",
+		date: "Dec 2020 – Present",
 		descBullets: [
 			"Analyze data utilizing Python (Pandas, NumPy) and various statistical methods.",
 			"Write Python scripts to integrate and transform data for further analysis in PsychoPy.",
@@ -124,25 +125,67 @@ export const experience = [
 		],
 	},
 	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Data Science Intern",
+		company: "LiteSpeed Technologies",
+		companylogo: "/img/icons/common/litespeed.png",
+		date: "May 2021 – Nov 2021",
+		// desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Built data-driven reports for VP & CEO of analysis performed and data mining generated results.",
+			"Optimized data mining scripts 10x using SQL and Python knowledge.",
+			"Deploy statistical models and big data algorithms to various company data streams using Linux shells and Python scripts.",
+			"Structured data queries and data mining through the MongoDB (NoSQL) database using Python, and its Pandas package.",
+			"Write a program to fetch, tidy, and process more than 100 million data points using Python and MySQL.",
+			// "Learned the basics of LAMP stack development to deploy, build, and customize a website.",
+		],
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Web Developer & Assistant Creative Director",
+		company: "The Werking Title Gallery",
+		companylogo: "/img/icons/common/werkingtitlegallery.png",
+		date: "Feb 2020 – May 2020",
+		// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Designed and developed a user-friendly website. Design included font choice, images, formatting, and layout.",
+			"Worked as a positive and productive member of the gallery to inform and promote creative ideas.",
+			"Fixed bugs and enhanced website functionality.",
+		],
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "NASA a World Bridge Alumni",
+		company: "NASA",
+		companylogo: "/img/icons/common/NASA.svg",
+		date: "Aug 2019 – June 2020",
+		// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Developed foundational understandings of Data Science skills directly applied to solving real projects, including computer programming, statistical analysis, data forecasting, and collaborative project management.",
+			"Created user-friendly data visualizations and publicly accessible USGS geospatial maps under mentorship of NASA, United Nations, United States Geological Survey (USGS), and more.",
+			"Assembled Earthquake Signal Precursors by developing a grounded understanding and hands-on application of electrical systems, circuits, and proficient soldering techniques.",
+		],
+	},
+	{
+		role: "Graphic Designer & Assistant Creative Director",
+		company: "The AI Organization",
+		companylogo: "/img/icons/common/aiorg.jpeg",
+		date: "Jan 2019 – July 2020",
+		// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Collaborated with internal and external stakeholders to gather and define business requirements, establish scopes and managed project milestones.",
+			"Created images and layouts for over 10 projects utilizing Adobe software, and contributed design ideas in early planning stages with customers and project managers.",
+		],
+	},
+	{
+		role: "Business Owner & Executive Chef",
+		company: "Local Espacio Común",
+		companylogo: "/img/icons/common/local.png",
+		date: "Apr 2018 – Jan 2019",
+		// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Coordinated analysis and planning of restaurant profitability and sales levels.",
+			"Developed recipes and menus by applying understanding of market demand and culinary trends.",
+			"Hired, trained and managed all kitchen staff, including employee development, issuing disciplinary action and conducting performance reviews.",
+			"Collaborated with vendors to source desired recipe ingredients while maintaining tight cost controls.",
+		],
 	},
 ];
 

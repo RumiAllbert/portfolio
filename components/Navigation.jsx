@@ -81,7 +81,7 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								<NavItem>
+								{/* <NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Facebook"
@@ -122,7 +122,7 @@ const Navigation = () => {
 											Twitter
 										</span>
 									</NavLink>
-								</NavItem>
+								</NavItem> */}
 								<NavItem>
 									<NavLink
 										rel="noopener"
