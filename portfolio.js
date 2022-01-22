@@ -1,10 +1,10 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Rumi Allbert Elias Calles",
+	title: "Hi, I'm Rumi",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+		"I enjoy solving complex problems with elegance. As a data science student, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music.",
 	resumeLink: "https://cv.hanzla.ga",
 };
 
@@ -15,11 +15,8 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	github: "https://github.com/RumiAllbert",
+	linkedin: "https://www.linkedin.com/in/rumi-allbert/",
 };
 
 export const skillsSection = {
@@ -40,44 +37,8 @@ export const skillsSection = {
 
 	softwareSkills: [
 		{
-			skillName: "html-5",
-			fontAwesomeClassname: "vscode-icons:file-type-html",
-		},
-		{
-			skillName: "css3",
-			fontAwesomeClassname: "vscode-icons:file-type-css",
-		},
-		{
-			skillName: "sass",
-			fontAwesomeClassname: "logos:sass",
-		},
-		{
-			skillName: "JavaScript",
-			fontAwesomeClassname: "logos:javascript",
-		},
-		{
-			skillName: "TypeScript",
-			fontAwesomeClassname: "logos:typescript-icon",
-		},
-		{
-			skillName: "reactjs",
-			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-		},
-		{
-			skillName: "nodejs",
-			fontAwesomeClassname: "logos:nodejs-icon",
-		},
-		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
-		},
-		{
-			skillName: "npm",
-			fontAwesomeClassname: "vscode-icons:file-type-npm",
+			skillName: "python",
+			fontAwesomeClassname: "logos:python",
 		},
 		{
 			skillName: "sql-database",
@@ -91,14 +52,7 @@ export const skillsSection = {
 			skillName: "aws",
 			fontAwesomeClassname: "logos:aws",
 		},
-		{
-			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
-		},
+
 		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
@@ -107,66 +61,66 @@ export const skillsSection = {
 			skillName: "docker",
 			fontAwesomeClassname: "logos:docker-icon",
 		},
+				{
+			skillName: "html-5",
+			fontAwesomeClassname: "vscode-icons:file-type-html",
+		},
+		{
+			skillName: "css3",
+			fontAwesomeClassname: "vscode-icons:file-type-css",
+		},
+		{
+			skillName: "JavaScript",
+			fontAwesomeClassname: "logos:javascript",
+		},
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		Stack: "Data Analysis", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Backend",
-		progressPercentage: "70",
+		Stack: "Programming",
+		progressPercentage: "80",
 	},
 	{
-		Stack: "Programming",
+		Stack: "Full Stack",
 		progressPercentage: "60",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Fei Tian College Middletown",
+		subHeader: "Bachelor of Science in Data Science",
+		duration: "August 2019 - May 2023",
+		desc: "Deans List Student",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"First Place Hackathon Champion",
+			"Presidnet of Health & Wellness Club",
+			"Tresurer of Falun Dafa Club",
 		],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Primavera High School",
+		subHeader: "AdvancED Diploma",
+		duration: "June 2017 - May 2018",
+		desc: "Early Graduation with 4.0 GPA.",
 	},
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Research Assistant",
+		company: "University of Delaware",
+		companylogo: "/img/icons/common/University_of_Delaware.svg",
+		date: "December 2020 – Present",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Analyze data utilizing Python (Pandas, NumPy) and various statistical methods.",
+			"Write Python scripts to integrate and transform data for further analysis in PsychoPy.",
+			"Conduct research and summarize findings on project findings.",
 		],
 	},
 	{
@@ -175,6 +129,13 @@ export const experience = [
 		companylogo: "/img/icons/common/github.svg",
 		date: "May 2017 – May 2018",
 		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	},
+	{
+		role: "Software Engineer Intern",
+		company: "Airbnb",
+		companylogo: "/img/icons/common/airbnbLogo.png",
+		date: "Jan 2015 – Sep 2015",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	},
 	{
 		role: "Software Engineer Intern",
