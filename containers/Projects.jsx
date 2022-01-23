@@ -4,6 +4,8 @@ import { projects } from "../portfolio";
 import { Container, Row } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
 import { Fade } from "react-reveal";
+import GreetingLottie from "../components/DisplayLottie";
+
 
 const Projects = () => {
 	return (

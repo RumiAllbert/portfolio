@@ -4,6 +4,8 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
+import GreetingLottie from "../components/DisplayLottie";
+
 const ProjectsCard = ({ data }) => {
 	return (
 		<Col lg="6">

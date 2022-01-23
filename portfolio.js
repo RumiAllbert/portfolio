@@ -27,7 +27,7 @@ export const skillsSection = {
 		"Passionate data science student who enjoys solving problems and identifying patterns",
 	skills: [
 		emoji(
-			"⚡ Analyze data for trends and patterns to find answers to specific questions"
+			"⚡ Analyze data for trends and patterns to answer specific questions"
 		),
 		emoji(
 			"⚡ Undertake preprocessing of structured and unstructured data"
@@ -130,7 +130,7 @@ export const experience = [
 		role: "Research Assistant",
 		company: "University of Delaware",
 		companylogo: "/img/icons/common/University_of_Delaware.svg",
-		date: "Dec 2020 – Present",
+		date: "Dec 2021 – Present",
 		descBullets: [
 			"Analyze data utilizing Python (Pandas, NumPy) and various statistical methods.",
 			"Write Python scripts to integrate and transform data for further analysis in PsychoPy.",
