@@ -12,9 +12,10 @@ const Skills = () => {
 			<Container className="text-center my-5 section section-lg">
 				<h1 className="h1">{skillsSection.title}</h1>
 				<p className="lead">{skillsSection.subTitle}</p>
+				<br></br>
 				<Row>
 					<Col lg="6">
-						<DisplayLottie animationPath="/lottie/webdev.json" />
+						<DisplayLottie animationPath="/lottie/coding3.json" />
 					</Col>
 					<Col lg="6">
 						<div className="d-flex justify-content-center flex-wrap mb-5">
@@ -22,7 +23,7 @@ const Skills = () => {
 								return (
 									<Fragment key={skill.skillName}>
 										<div
-											className="icon icon-lg icon-shape shadow rounded-circle mb-5"
+											className="icon icon-lg icon-shape shadow rounded-circle mb-4"
 											id={skill.skillName}
 										>
 											<span

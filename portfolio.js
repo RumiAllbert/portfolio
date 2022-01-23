@@ -4,8 +4,9 @@ export const greetings = {
 	name: "Rumi Allbert Elias Calles",
 	title: "Hi, I'm Rumi",
 	description:
-		"I enjoy solving complex problems with elegance. As a data science student, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music.",
-	resumeLink: "https://cv.hanzla.ga",
+	emoji (
+	"I enjoy solving complex problems. As a data science student, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music. 🙇🏽‍♂️"),
+	resumeLink: "",
 };
 
 export const openSource = {
@@ -23,43 +24,55 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"Passionate data science student who enjoys solving problems and identifying patterns",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Analyze data for trends and patterns to find answers to specific questions"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Undertake preprocessing of structured and unstructured data"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Create dashboards and data-driven reports using present-day techniques in graphical analysis "
 		),
 	],
 
 	softwareSkills: [
 		{
-			skillName: "python",
+			skillName: "Python",
 			fontAwesomeClassname: "logos:python",
 		},
 		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
+			skillName: "MySQL",
+			fontAwesomeClassname: "vscode-icons:file-type-mysql",
+		},
+		{
+			skillName: "Rstudio",
+			fontAwesomeClassname: "vscode-icons:file-type-r",
 		},
 		{
 			skillName: "mongoDB",
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
 		},
 		{
-			skillName: "aws",
+			skillName: "Tableau",
+			fontAwesomeClassname: "logos:tableau",
+		},
+		{
+			skillName: "Excel",
+			fontAwesomeClassname: "vscode-icons:file-type-excel",
+		},
+		{
+			skillName: "AWS",
 			fontAwesomeClassname: "logos:aws",
 		},
 
 		{
-			skillName: "git",
+			skillName: "Git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
 		{
-			skillName: "docker",
+			skillName: "Docker",
 			fontAwesomeClassname: "logos:docker-icon",
 		},
 				{
@@ -100,7 +113,7 @@ export const educationInfo = [
 		desc: "Deans List Student",
 		descBullets: [
 			"First Place Hackathon Champion",
-			"Presidnet of Health & Wellness Club",
+			"President of Health & Wellness Club",
 			"Tresurer of Falun Dafa Club",
 		],
 	},
@@ -191,21 +204,39 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "Airbnb In NYC Responsive Dashboard - Tableau",
+		desc: "Created, designed, and built a responsive, user-friendly dashboard for Airbnb listings in NYC.",
+		link: "https://prod-useast-a.online.tableau.com/t/businessdataanalyticssummer2020feitiancollegemiddletown/views/FinalProjectRumiAllbert2/NYCAirbnbDashboard?:origin=card_share_link&:embed=n",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Monty Hall Probability Problem - Rstudio & Shiny App",
+		desc: "Shiny application in R to play and simulate the monty hall probability problem",
+		github: "https://github.com/RumiAllbert/monty-hall-probability-problem",
+		link: "https://rumiallbert.shinyapps.io/monty-hall-probability-problem-shiny/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "lGSS Exploratory Data Analysis - R",
+		desc: "Utilized exploratory data analysis tools in Rstudio in order to track and describe patters in attitudes, behaviors, and attributes of contemporary American society.",
+		github: "https://github.com/RumiAllbert/GSSDataAnalysis",
 	},
+	{
+		name: "Prototype Commercial Airline Website",
+		desc: "Built and designed a responsive and user-friendly website utilizing MySQL, HTML, CSS, Bootstrap, and instantiated it on AWS.",
+		github: "https://github.com/RumiAllbert/AirlineProject",
+		// link: "https://example.com",
+	},
+	{
+		name: "COVID-19 Tracker - Python",
+		desc: "Created, designed, and deployed a user-friendly and responsive COVID-19 tracking website utilizing Python and Flask framework.",
+		github: "https://github.com/RumiAllbert/CIS105/tree/master/CIS105%20Final%20Project",
+		// link: "https://example.com",
+	},
+	{
+		name: "Dr. Semmelweis and the Discovery of Handwashing - Python",
+		desc: "Reanalyze the data that made Semmelweis discover the importance of handwashing.",
+		github: "https://github.com/RumiAllbert/Dr.-Semmelweis-and-the-Discovery-of-Handwashing-Project",
+	},
+
 ];
 
 export const feedbacks = [
