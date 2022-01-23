@@ -27,7 +27,7 @@ export const skillsSection = {
 		"Passionate data science student who enjoys solving problems and identifying patterns",
 	skills: [
 		emoji(
-			"⚡ Analyze data for trends and patterns to answer specific questions"
+			"⚡ Analyze data for trends and patterns to answer questions"
 		),
 		emoji(
 			"⚡ Undertake preprocessing of structured and unstructured data"
