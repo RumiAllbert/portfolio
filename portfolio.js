@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 	emoji (
 	"I enjoy solving complex problems. As a data science student, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music. 🙇🏽‍♂️"),
-	resumeLink: "",
+	resumeLink: "https://resume.creddle.io/resume/exng2w59a4o",
 };
 
 export const openSource = {
