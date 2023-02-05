@@ -3,9 +3,8 @@ import emoji from "react-easy-emoji";
 export const greetings = {
   name: "Rumi Alexander Allbert",
   title: "Hi, I'm Rumi",
-  description: emoji(
-    "I enjoy solving complex problems. As a data enthusiast, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music. 🙇🏽‍♂️"
-  ),
+  description:
+    "I enjoy solving complex problems. As a data enthusiast, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music. 🙇🏽‍♂️",
   resumeLink:
     "https://docs.google.com/document/d/1LaFMQ9ZomoJOEiOwxl2q-oeToi0jYR_vMPd6P-oKz_w/edit?usp=sharing",
 };
@@ -25,12 +24,12 @@ export const skillsSection = {
   title: "Expertise",
   subTitle: "Data Scientist & ML Engineer",
   skills: [
-    emoji("📈 Data exploration, cleaning, and analysis"),
-    emoji("🔍 Statistical analysis, hypothesis testing, and modeling"),
-    emoji("📊 Creation and deployment of data-driven models"),
-    emoji("👷🏽 Development and maintenance of data pipelines"),
-    emoji("🔮 Deep learning techniques and applications"),
-    emoji("💻 Big data tools (Spark, Hadoop)"),
+    "📈 Data exploration, cleaning, and analysis",
+    "🔍 Statistical analysis, hypothesis testing, and modeling",
+    "📊 Creation and deployment of data-driven models",
+    "👷🏽 Development and maintenance of data pipelines",
+    "🔮 Deep learning techniques and applications",
+    "💻 Big data tools (Spark, Hadoop)",
   ],
 
   softwareSkills: [
