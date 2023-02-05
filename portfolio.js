@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-  name: "Rumi Allbert Elias Calles",
+  name: "Rumi Alexander Allbert",
   title: "Hi, I'm Rumi",
   description: emoji(
     "I enjoy solving complex problems. As a data enthusiast, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music. 🙇🏽‍♂️"
