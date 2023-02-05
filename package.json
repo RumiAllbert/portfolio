@@ -19,10 +19,11 @@
 		"classnames": "^2.3.1",
 		"color-thief-react": "^2.1.0",
 		"colorthief": "^2.3.2",
+		"emojione": "^4.5.0",
 		"graphql": "^15.5.1",
 		"headroom.js": "^0.12.0",
 		"moment": "^2.29.1",
-		"next": "11.1.2",
+		"next": "^11.1.4",
 		"nouislider": "^15.2.0",
 		"prop-types": "^15.7.2",
 		"react": "17.0.2",
@@ -32,10 +33,10 @@
 		"react-headroom": "^3.1.1",
 		"react-lottie": "^1.2.3",
 		"react-reveal": "^1.2.2",
-		"react-scripts": "^4.0.3",
+		"react-scripts": "^5.0.1",
 		"react-typist": "^2.0.5",
 		"reactstrap": "^8.9.0",
-		"sharp": "^0.29.1"
+		"sharp": "^0.31.3"
 	},
 	"devDependencies": {
 		"eslint": "7.32.0",
