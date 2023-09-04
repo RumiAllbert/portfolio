@@ -1,4 +1,5 @@
 import emoji from "react-easy-emoji";
+//  TODO Update front facing site. Expertise section is also outdated.
 
 export const greetings = {
   name: "Rumi Alexander Allbert",
@@ -142,7 +143,7 @@ export const experience = [
     role: "Research Assistant",
     company: "University of Delaware",
     companylogo: "/img/icons/common/University_of_Delaware.svg",
-    date: "Dec 2021 – Present",
+    date: "Dec 2021 – Dec 2022",
     descBullets: [
       "Analyze data utilizing Python (Pandas, NumPy) and various statistical methods.",
       "Write Python scripts to integrate and transform data for further analysis in PsychoPy.",
