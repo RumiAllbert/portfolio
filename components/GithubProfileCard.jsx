@@ -21,8 +21,7 @@ const GithubProfileCard = ({ prof }) => {
 						</Col>
 						<Col lg="8" className="order-lg-1">
 							<h2 className="text-white ">Want to chat? Reach out!</h2>
-							<p className="lead text-white mt-3">
-							</p>
+							<p className="lead text-white mt-3" />
 							{/* <p className="text-white mt-3">{prof.bio}</p> */}
 							<h4 className="text-white mt-2">rumiallbert@gmail.com</h4>
 							<div className="my-2 icon-shape bg-gradient-white shadow rounded text-info">
