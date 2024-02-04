@@ -7,7 +7,7 @@ export const greetings = {
   description:
     "I enjoy solving complex problems. As a data enthusiast, I unravel problems utilizing present-day techniques & methods in data mining, data visualization, graphical analysis, and statistical solutions. In my free time, I am a scholar of history, philosophy, art, and music. 🙇🏽‍♂️",
   resumeLink:
-    "https://docs.google.com/document/d/1LaFMQ9ZomoJOEiOwxl2q-oeToi0jYR_vMPd6P-oKz_w/edit?usp=sharing",
+    "https://docs.google.com/document/d/1fBDyIWfaiCZU0uR8F6W8cwbwOO-t279H0j2cr9B-deU/edit?usp=sharing",
 };
 
 export const openSource = {
@@ -108,6 +108,15 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
+    schoolName: "Ralston College",
+    subHeader: "Master of Art in Humanities",
+    duration: "August 2023 - May 2024",
+    // desc: "Deans List Student",
+    descBullets: [
+      // "Academic Excellence Award",
+    ],
+  },
+  {
     schoolName: "Fei Tian College Middletown",
     subHeader: "Bachelor of Science in Data Science",
     duration: "August 2019 - May 2023",
@@ -129,7 +138,7 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Junior Data Scientist",
+    role: "Data Scientist",
     company: "The Epoch Times",
     companylogo: "/img/icons/common/eet.jpg",
     date: "Jan 2022 – Present",
