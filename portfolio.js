@@ -111,9 +111,10 @@ export const educationInfo = [
     schoolName: "Ralston College",
     subHeader: "Master of Art in Humanities",
     duration: "August 2023 - May 2024",
-    // desc: "Deans List Student",
+    desc: "Greek & Philosophy Scholar",
     descBullets: [
-      // "Academic Excellence Award",
+      "Study of ancient texts",
+      "Aquisition of modern and ancient Greek",
     ],
   },
   {
@@ -128,12 +129,12 @@ export const educationInfo = [
       "Tresurer of Falun Dafa Club",
     ],
   },
-  {
-    schoolName: "Primavera High School",
-    subHeader: "AdvancED Diploma",
-    duration: "June 2017 - May 2018",
-    desc: "Early Graduation with 4.0 GPA.",
-  },
+  // {
+  //   schoolName: "Primavera High School",
+  //   subHeader: "AdvancED Diploma",
+  //   duration: "June 2017 - May 2018",
+  //   desc: "Early Graduation with 4.0 GPA.",
+  // },
 ];
 
 export const experience = [
@@ -143,9 +144,9 @@ export const experience = [
     companylogo: "/img/icons/common/eet.jpg",
     date: "Jan 2022 – Present",
     descBullets: [
-      "Utilized statistical and graphical techniques to interpret and analyze data, providing regular reports to stakeholders and upper management.",
-      "Implemented automated data pipelines using Python to streamline business processes, resulting in a 25% increase in efficiency and decreased data leakage.",
-      "Developed and deployed advanced machine learning algorithms, including Deep Neural Network Natural Language Processing (NLP), to identify patterns and predict outcomes within company data streams and customer feedback, resulting in a 20% reduction in unsubscriptions.",
+    "Spearheaded the analysis of complex datasets with statistical and graphical techniques, delivering insightful reports that informed strategic decisions for stakeholders and senior management.",
+    "Engineered and launched automated data pipelines leveraging Python and Hive, catalyzing a 25% increase in operational efficiency and reducing data leakage.",
+    "Pioneered the integration of machine learning models, including deploying BERT and clustering algorithms for NLP tasks, to analyze data and predict trends, leading to a notable 20% decline in subscriber churn rates.",
     ],
   },
   {
@@ -154,9 +155,9 @@ export const experience = [
     companylogo: "/img/icons/common/University_of_Delaware.svg",
     date: "Dec 2021 – Dec 2022",
     descBullets: [
-      "Analyze data utilizing Python (Pandas, NumPy) and various statistical methods.",
-      "Write Python scripts to integrate and transform data for further analysis in PsychoPy.",
-      "Conduct research and summarize findings on project findings.",
+    "Conducted in-depth statistical analysis using Python to drive key insights, informing the research team's strategic decisions.",
+    "Authored and refined a suite of Python scripts for the efficient integration and transformation of complex datasets within PsychoPy, effectively accelerating the analysis pipeline and reducing processing bottlenecks by 30%.",
+
     ],
   },
   {
@@ -166,12 +167,9 @@ export const experience = [
     date: "May 2021 – Nov 2021",
     // desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     descBullets: [
-      "Built data-driven reports for VP & CEO of analysis performed and data mining generated results.",
-      "Optimized data mining scripts 10x using SQL and Python knowledge.",
-      "Deploy statistical models and big data algorithms to various company data streams using Linux shells and Python scripts.",
-      "Structured data queries and data mining through the MongoDB (NoSQL) database using Python, and its Pandas package.",
-      "Write a program to fetch, tidy, and process more than 100 million data points using Python and MySQL.",
-      // "Learned the basics of LAMP stack development to deploy, build, and customize a website.",
+    "Developed data-driven reports for the VP & CEO, highlighting key findings from extensive data mining efforts.",
+    "Optimized data mining and pipeline scripts by ~200% using MySQL and Python, resulting in a 50% reduction in processing time.",
+    "Implemented statistical models and big data algorithms with parallel architecture to 5+ company data streams, leveraging Linux and Python for robust data handling.",
     ],
   },
   {
@@ -193,9 +191,8 @@ export const experience = [
     date: "Aug 2019 – June 2020",
     // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     descBullets: [
-      "Developed foundational understandings of Data Science skills directly applied to solving real projects, including computer programming, statistical analysis, data forecasting, and collaborative project management.",
-      "Created user-friendly data visualizations and publicly accessible USGS geospatial maps under mentorship of NASA, United Nations, United States Geological Survey (USGS), and more.",
-      "Assembled Earthquake Signal Precursors by developing a grounded understanding and hands-on application of electrical systems, circuits, and proficient soldering techniques.",
+    "Applied data science skills to real-world projects, including statistical analysis, data forecasting, and collaborative project management.",
+    "Created user-friendly data visualizations and accessible USGS geospatial maps under the mentorship of NASA, the United Nations, USGS, and other organizations.",
     ],
   },
   {
