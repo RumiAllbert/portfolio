@@ -12,7 +12,7 @@ const Skills = () => {
 			<Container className="text-center my-4 section section-lg">
 				<h1 className="h1">{skillsSection.title}</h1>
 				<p className="lead">{skillsSection.subTitle}</p>
-				<br></br>
+				<br />
 				<Row>
 					<Col lg="6">
 						<DisplayLottie animationPath="/lottie/coding3.json" />
@@ -32,7 +32,7 @@ const Skills = () => {
 													skill.fontAwesomeClassname
 												}
 												data-inline="false"
-											></span>
+											 />
 										</div>
 										<UncontrolledTooltip
 											delay={0}

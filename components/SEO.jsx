@@ -33,7 +33,7 @@ function SEO({ data }) {
       <script
         async
         src="https://code.iconify.design/1/1.0.4/iconify.min.js"
-      ></script>
+       />
     </Head>
   );
 }
